@@ -1,8 +1,5 @@
 # GCSコマンド例（gsutilツール）
 
-* 参考:
-  * [Cloud Storage / gsutil ツール | Google Cloud公式](https://cloud.google.com/storage/docs/gsutil)
-
 ## 一覧: `gsutil ls`
 
 ### バケットの一覧
@@ -80,4 +77,9 @@
   ```
 
   ローカルの「folder2」フォルダ内の全てのフォルダ・ファイルを、「bucket1」バケットの「folder1」フォルダにアップロード
+
+
+## その他、参考資料
+
+* [Cloud Storage / gsutil ツール | Google Cloud公式](https://cloud.google.com/storage/docs/gsutil)
 
