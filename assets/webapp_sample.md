@@ -172,6 +172,11 @@
       return send_from_directory(app.config["IMAGE_FOLDER"], name)
 
   ```
+  
+  * 参考:
+    * [Uploading Files | Flask公式ドキュメント](https://flask.palletsprojects.com/patterns/fileuploads/)
+    * [opencv-python | PyPI](https://pypi.org/project/opencv-python/)
+    * [ゼロからはじめるPython(34) OpenCVをインストールしてみよう | TECH+ マイナビニュース](https://news.mynavi.jp/techplus/article/zeropython-34/)
 
 * 実行（コマンド）
 
@@ -191,3 +196,9 @@
   3. 終了
 
       `Ctrl + c`押下
+
+## その他、参考資料
+
+* [Flask | PyPI](https://pypi.org/project/Flask/)
+* [Flask公式ドキュメント](https://flask.palletsprojects.com/)
+  * [Quickstart](https://flask.palletsprojects.com/quickstart/)
