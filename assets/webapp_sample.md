@@ -178,6 +178,9 @@
     * [opencv-python | PyPI](https://pypi.org/project/opencv-python/)
     * [ゼロからはじめるPython(34) OpenCVをインストールしてみよう | TECH+ マイナビニュース](https://news.mynavi.jp/techplus/article/zeropython-34/)
 
+  * TIPS:
+    * [各種Tips > Google Cloud / Cloud Shell Editor > cv2関連のpylintチェックエラーが消えない](./tips.md#cv2関連のpylintチェックエラーが消えない-module-cv2-has-no-xxxxxx-member)
+
 * 実行（コマンド）
 
   1. 環境セットアップ
