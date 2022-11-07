@@ -2,7 +2,7 @@
 
 ## Google Cloud / Cloud Shell Editor
 
-### cs2関連のPylintチェックエラーが消えない: `Module 'cv2' has no 'XXXXXX' member`
+### cv2関連のPylintチェックエラーが消えない: `Module 'cv2' has no 'XXXXXX' member`
 
 環境は問題ないにも関わらず（※1）、Cloud Shell Editor上でPyLintによるチェックエラー（`Module 'cv2' has no 'XXXXX' member`）が消えない。
 ※1: `cv2`(`opencv-python`ライブラリ)は導入済み。プログラムは正常に動作する。
