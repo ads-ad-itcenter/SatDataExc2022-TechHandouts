@@ -99,7 +99,7 @@
 
 * コマンド例2:
   ```sh
-  rm –r folder1
+  rm -r folder1
   ```
   `folder1` フォルダを削除
   
