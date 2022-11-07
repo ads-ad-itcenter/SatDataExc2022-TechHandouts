@@ -44,7 +44,7 @@ Google Cloud CLI (gcloudコマンド) を利用して、接続(ssh)、ファイ�
 
 * コマンド例2:
   ```sh
-  gcloud compute scp –r instance-1:~/folder2 ~  --zone "us-central1-a" --project "project-a"
+  gcloud compute scp -r instance-1:~/folder2 ~  --zone "us-central1-a" --project "project-a"
   ```
   - `project-a` プロジェクトの `us-central1-a` ゾーンの `instance-1` インスタンス(仮想マシン) の
   - `~/folder2` フォルダを
