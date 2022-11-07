@@ -8,11 +8,11 @@
 
   storage_client = storage.Client()
 
-  bucket_name = "bucket1"
+  src_bucket_name = "bucket1"
   src_path    = "folder1/sample1.txt"
   dst_path    = "sample1.txt"
 
-  bucket = storage_client.bucket(bucket_name)
+  bucket = storage_client.bucket(src_bucket_name)
   blob = bucket.blob(src_path)
   blob.download_to_filename(dst_path)
   ```
@@ -29,10 +29,10 @@
   storage_client = storage.Client()
 
   src_path    = "sample1.txt"
-  bucket_name = "bucket1"
+  dst_bucket_name = "bucket1"
   dst_path    = "folder2/sample1.txt"
 
-  bucket = storage_client.bucket(bucket_name)
+  bucket = storage_client.bucket(dst_bucket_name)
   blob = bucket.blob(dst_path)
   blob.upload_from_filename(src_path)
   ```
