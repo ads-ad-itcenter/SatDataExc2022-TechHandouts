@@ -192,7 +192,7 @@
       
       * APPENDIX: `Debian 10 based Deep Learning VM for TensorFlow Enterprise 2.7 M88` 仮想マシンで`opencv-python`を導入する場合
         
-        pip(pip3) でインストールすると、エラーになります。
+        `sudo pip3` でインストールすると、エラーになります。
         代わりに、以下のコマンドでインストールしてください
         ```
         sudo apt update && sudo apt install python3-opencv
