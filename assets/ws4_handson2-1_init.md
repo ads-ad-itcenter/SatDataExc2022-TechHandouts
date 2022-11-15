@@ -22,10 +22,9 @@ gs://sat-pbl-2022-dist/data/ws4_test_data.zip \
 ```
 → バケットからサンプルデータをダウンロード
 
-※複数行(3行)ありますが、一度に全てを実行してください
+※複数行(2行)ありますが、一度に全てを実行してください
 ```sh
-gsutil cp \
-gs://sat-pbl-2022-dist/data/ws4_test_data.zip \
-.
+unzip ws4_test_data.zip && \
+rm ws4_test_data.zip
 ```
 → ダウンロードしたzipファイルを解凍し、不要になったzipファイルは削除
