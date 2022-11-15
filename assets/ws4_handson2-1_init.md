@@ -14,6 +14,7 @@ wget https://raw.githubusercontent.com/ads-ad-itcenter/SatDataExc2022-TechHandou
 
 ターミナルにて、以下のコマンドを実行
 
+※複数行(3行)ありますが、一度に全てを実行してください
 ```sh
 gsutil cp \
 gs://sat-pbl-2022-dist/data/ws4_test_data.zip \
@@ -21,6 +22,7 @@ gs://sat-pbl-2022-dist/data/ws4_test_data.zip \
 ```
 → バケットからサンプルデータをダウンロード
 
+※複数行(3行)ありますが、一度に全てを実行してください
 ```sh
 gsutil cp \
 gs://sat-pbl-2022-dist/data/ws4_test_data.zip \
